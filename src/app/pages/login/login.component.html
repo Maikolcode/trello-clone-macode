@@ -1,1 +1,37 @@
-<p>login works!</p>
+<div class="w-screen h-screen bg-white sm:bg-gray-50 relative">
+  <div class="absolute w-full h-full hidden sm:block">
+    <img loading="lazy" class="absolute sm:w-[15rem] md:w-[20rem] lg:w-[25rem] left-0 bottom-0" src="/assets/images/svgs/login-bg-left.svg" alt="left-icon">
+    <img loading="lazy" class="absolute sm:w-[15rem] md:w-[20rem] lg:w-[25rem] right-0 bottom-0" src="/assets/images/svgs/login-bg-rigth.svg" alt="rigth-icon">
+  </div>
+
+  <div class="w-full sm:w-8/12 md:w-96 lg:w-96 m-auto flex justify-center items-center flex-col">
+    <header class="py-5 sm:py-10">
+      <img loading="lazy" class="w-48" src="/assets/images/trello/logo-gradient-blue-trello.svg" alt="logo-trello">
+    </header>
+    <div class="bg-white w-full py-5 px-10 sm:rounded sm:shadow-lg sm:w-90 z-10">
+      <div class="flex justify-center items-center flex-col">
+        <p class="font-bold text-gray-500 py-6">Iniciar sesión en Trello</p>
+        <form novalidate class="space-y-4 w-full">
+          <div class="relative">
+            <input type="email" placeholder="Ingrese el correo electrónico" class="w-full rounded bg-gray-50 border-2 border-gray-300 p-2 text-sm transition-all">
+          </div>
+          <div class="relative">
+            <input type="password" placeholder="Ingrese su contraseña" class="w-full rounded bg-gray-50 border-2 border-gray-300 p-2 text-sm transition-all">
+          </div>
+          <div class="relative">
+            <button type="submit" class="w-full bg-[#5AAC44] hover:bg-[#65bb4d] font-bold text-white rounded py-[0.50rem] text-sm">Continuar</button>
+          </div>
+        </form>
+      </div>
+      <hr class="my-5 border-b-1 border-r-gray-300"/>
+      <div class="flex flex-col items-center gap-2">
+        <a href="#" class="text-blue-500 text-xs hover:underline ">
+          ¿No puede iniciar sesión?
+        </a>
+        <span>• <a href="#" class="text-blue-500 text-xs hover:underline">  Regístrese para crear una cuenta</a></span>
+      </div>
+    </div>
+    <hr class="mt-5 mb-3 border-b-1 border-r-gray-300 w-9/12"/>
+    <img loading="lazy" class="w-32" src="/assets/images/trello/horizontal-logo-gradient-blue-atlassian.svg" alt="logo-trello">
+  </div>
+</div>

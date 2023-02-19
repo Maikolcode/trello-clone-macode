@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class TrelloBtnComponent implements OnInit {
 
   @Input() typeBtn: 'button' | 'submit' | 'reset' = 'button';
-  @Input() colorType: 'success' | 'primary' | 'secondary' = 'success';
+  @Input() colorType: string = 'bg-success-600';
 
   constructor() { }
 
